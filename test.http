@@ -1,0 +1,14 @@
+GET http://localhost:2000/
+
+###
+GET http://localhost:2000/get
+
+
+###
+POST http://localhost:2000/post
+Content-Type: application/json
+
+{
+    "name":"Abhishek",
+    "hobby":"Something Interesting"
+}

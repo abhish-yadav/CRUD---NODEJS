@@ -1,0 +1,28 @@
+{
+  "name": "crud---nodejs",
+  "version": "1.0.0",
+  "description": "Crud opertion in Nodejs, MongoDB, Express, Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhish-yadav/CRUD---NODEJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhish-yadav/CRUD---NODEJS/issues"
+  },
+  "homepage": "https://github.com/abhish-yadav/CRUD---NODEJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
